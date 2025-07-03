@@ -1,5 +1,5 @@
 {
-  "extends": "./base.json",
+  "extends": "./tsconfig.base.json",
   "compilerOptions": {
     "module": "es2022",
     "moduleResolution": "bundler",
@@ -9,7 +9,6 @@
     "experimentalDecorators": true,
     "target": "ES2023",
     "sourceMap": true,
-    "outDir": "./dist",
     "baseUrl": "./",
     "strictNullChecks": false,
     "noImplicitAny": false,

@@ -16,7 +16,7 @@ Extend the appropriate configuration for your framework:
 
 ```json
 {
-  "extends": "@teo-garcia/tsconfig-shared/nextjs",
+  "extends": "@teo-garcia/tsconfig-shared/next",
   "compilerOptions": {
     "paths": { "@/*": ["./app/*"] }
   }
@@ -39,7 +39,7 @@ Extend the appropriate configuration for your framework:
 
 ```json
 {
-  "extends": "@teo-garcia/tsconfig-shared/nestjs",
+  "extends": "@teo-garcia/tsconfig-shared/nest",
   "compilerOptions": {
     "paths": { "@/*": ["./src/*"] }
   }
@@ -61,9 +61,9 @@ Extend the appropriate configuration for your framework:
 ## Available Configurations
 
 - `base` - Common TypeScript settings
-- `nextjs` - Next.js optimized configuration
+- `next` - Next.js optimized configuration
 - `react-router` - React Router configuration
-- `nestjs` - Nest.js server configuration
+- `nest` - Nest.js server configuration
 - `vite-react` - Vite + React configuration
 
 ## License

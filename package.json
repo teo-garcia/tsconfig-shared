@@ -1,21 +1,21 @@
 {
   "name": "@teo-garcia/tsconfig-shared",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared TypeScript configurations for templates",
-  "main": "base.json",
+  "main": "tsconfig.base.json",
   "exports": {
-    "./base": "./base.json",
-    "./nextjs": "./nextjs.json",
-    "./react-router": "./react-router.json",
-    "./nestjs": "./nestjs.json",
-    "./vite-react": "./vite-react.json"
+    "./base": "./tsconfig.base.json",
+    "./next": "./tsconfig.next.json",
+    "./react-router": "./tsconfig.react-router.json",
+    "./nest": "./tsconfig.nest.json",
+    "./vite-react": "./tsconfig.vite-react.json"
   },
   "files": [
-    "base.json",
-    "nextjs.json",
-    "react-router.json",
-    "nestjs.json",
-    "vite-react.json"
+    "tsconfig.base.json",
+    "tsconfig.next.json",
+    "tsconfig.react-router.json",
+    "tsconfig.nest.json",
+    "tsconfig.vite-react.json"
   ],
   "keywords": [
     "typescript",

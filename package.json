@@ -1,0 +1,35 @@
+{
+  "name": "@teo-garcia/tsconfig-shared",
+  "version": "0.1.1",
+  "description": "Shared TypeScript configurations for templates",
+  "main": "base.json",
+  "exports": {
+    "./base": "./base.json",
+    "./nextjs": "./nextjs.json",
+    "./react-router": "./react-router.json",
+    "./nestjs": "./nestjs.json",
+    "./vite-react": "./vite-react.json"
+  },
+  "files": [
+    "base.json",
+    "nextjs.json",
+    "react-router.json",
+    "nestjs.json",
+    "vite-react.json"
+  ],
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "configuration",
+    "nextjs",
+    "react",
+    "nestjs",
+    "vite"
+  ],
+  "author": "Teo Garcia",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/teo-garcia/templates"
+  }
+}

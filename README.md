@@ -1,6 +1,6 @@
 # @teo-garcia/tsconfig-shared
 
-TypeScript configurations for modern development workflows.
+Shared TypeScript configurations for modern development workflows.
 
 ## Installation
 

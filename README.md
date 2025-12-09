@@ -1,16 +1,39 @@
+<div align="center">
+
 # @teo-garcia/tsconfig-shared
 
-Shared TypeScript configurations for modern development workflows.
+**Shared TypeScript configurations for modern development workflows**
 
-## Installation
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![npm](https://img.shields.io/npm/v/@teo-garcia/tsconfig-shared?color=blue)](https://www.npmjs.com/package/@teo-garcia/tsconfig-shared)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
+
+Part of the [@teo-garcia/templates](https://github.com/teo-garcia/templates) ecosystem
+
+</div>
+
+---
+
+## ✨ Features
+
+| Config | Target | Use Case |
+|--------|--------|----------|
+| **base** | ESNext | Common TypeScript settings |
+| **next** | ESNext | Next.js projects |
+| **react-router** | ESNext | React Router + Vite |
+| **nest** | ES2022 | NestJS server projects |
+| **vite-react** | ESNext | Vite + React SPA |
+
+## 📋 Requirements
+
+- TypeScript 5+
+
+## 🚀 Quick Start
 
 ```bash
-npm install --save-dev @teo-garcia/tsconfig-shared
+# Install the package
+pnpm add -D @teo-garcia/tsconfig-shared
 ```
-
-## Usage
-
-Extend the appropriate configuration for your framework:
 
 ### Next.js
 
@@ -35,7 +58,7 @@ Extend the appropriate configuration for your framework:
 }
 ```
 
-### Nest.js
+### NestJS
 
 ```json
 {
@@ -58,14 +81,30 @@ Extend the appropriate configuration for your framework:
 }
 ```
 
-## Available Configurations
+## 📦 Exports
 
-- `base` - Common TypeScript settings
-- `next` - Next.js optimized configuration
-- `react-router` - React Router configuration
-- `nest` - Nest.js server configuration
-- `vite-react` - Vite + React configuration
+| Export | Description |
+|--------|-------------|
+| `@teo-garcia/tsconfig-shared/base` | Common TypeScript settings |
+| `@teo-garcia/tsconfig-shared/next` | Next.js optimized |
+| `@teo-garcia/tsconfig-shared/react-router` | React Router + Vite |
+| `@teo-garcia/tsconfig-shared/nest` | NestJS server |
+| `@teo-garcia/tsconfig-shared/vite-react` | Vite + React SPA |
 
-## License
+## 🔗 Related Packages
+
+| Package | Description |
+|---------|-------------|
+| [@teo-garcia/eslint-config-shared](https://github.com/teo-garcia/eslint-config-shared) | ESLint rules |
+| [@teo-garcia/prettier-config-shared](https://github.com/teo-garcia/prettier-config-shared) | Prettier formatting |
+| [@teo-garcia/vitest-config-shared](https://github.com/teo-garcia/vitest-config-shared) | Test configuration |
+
+## 📄 License
 
 MIT
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ by <a href="https://github.com/teo-garcia">teo-garcia</a></sub>
+</div>

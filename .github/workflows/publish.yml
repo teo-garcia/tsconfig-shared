@@ -30,6 +30,9 @@ jobs:
         run: pnpm install --no-frozen-lockfile
 
       - name: Publish to npm
+        env:
+          NODE_AUTH_TOKEN: ""
+          NPM_TOKEN: ""
         run: pnpm publish --provenance --access public --no-git-checks
 
       - name: Create GitHub Release

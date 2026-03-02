@@ -28,6 +28,7 @@
   ],
   "author": "Teo Garcia",
   "license": "MIT",
+  "packageManager": "pnpm@10.2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teo-garcia/tsconfig-shared.git"

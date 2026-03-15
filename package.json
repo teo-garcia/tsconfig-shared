@@ -34,7 +34,11 @@
     "url": "git+https://github.com/teo-garcia/tsconfig-shared.git"
   },
   "scripts": {
+    "check": "pnpm format:check",
     "format": "prettier --write .",
     "format:check": "prettier --check ."
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
   }
 }

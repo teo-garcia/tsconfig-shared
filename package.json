@@ -33,6 +33,7 @@
   "author": "Teo Garcia",
   "license": "MIT",
   "packageManager": "pnpm@10.2.0",
+  "prettier": "@teo-garcia/prettier-config-shared",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/teo-garcia/tsconfig-shared.git"
@@ -43,6 +44,7 @@
     "format:check": "prettier --check ."
   },
   "devDependencies": {
+    "@teo-garcia/prettier-config-shared": "^0.2.9",
     "prettier": "^3.8.1"
   }
 }

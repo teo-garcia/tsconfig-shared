@@ -8,7 +8,8 @@
 [![npm](https://img.shields.io/npm/v/@teo-garcia/tsconfig-shared?color=blue)](https://www.npmjs.com/package/@teo-garcia/tsconfig-shared)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript&logoColor=white)](https://typescriptlang.org)
 
-Part of the [@teo-garcia/templates](https://github.com/teo-garcia/templates) ecosystem
+Part of the [@teo-garcia/templates](https://github.com/teo-garcia/templates)
+ecosystem
 
 </div>
 

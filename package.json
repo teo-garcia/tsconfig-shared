@@ -32,6 +32,9 @@
   ],
   "author": "Teo Garcia",
   "license": "MIT",
+  "engines": {
+    "node": ">=24"
+  },
   "packageManager": "pnpm@10.2.0",
   "prettier": "@teo-garcia/prettier-config-shared",
   "repository": {

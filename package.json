@@ -44,10 +44,13 @@
   "scripts": {
     "check": "pnpm format:check",
     "format": "prettier --write .",
-    "format:check": "prettier --check ."
+    "format:check": "prettier --check .",
+    "prepare": "husky"
   },
   "devDependencies": {
     "@teo-garcia/prettier-config-shared": "^0.2.9",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.3",
     "prettier": "^3.8.1"
   }
 }

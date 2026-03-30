@@ -15,7 +15,7 @@ ecosystem
 
 ---
 
-## Features
+## Presets
 
 | Config           | Target | Use Case                   |
 | ---------------- | ------ | -------------------------- |
@@ -24,63 +24,15 @@ ecosystem
 | **react-router** | ESNext | React Router + Vite        |
 | **nest**         | ES2022 | NestJS server projects     |
 | **vite-react**   | ESNext | Vite + React SPA           |
+| **expo**         | ESNext | Expo / React Native        |
+
+---
 
 ## Requirements
 
 - TypeScript 5+
 
-## Quick Start
-
-```bash
-# Install the package
-pnpm add -D @teo-garcia/tsconfig-shared
-```
-
-### Next.js
-
-```json
-{
-  "extends": "@teo-garcia/tsconfig-shared/next",
-  "compilerOptions": {
-    "paths": { "@/*": ["./app/*"] }
-  }
-}
-```
-
-### React Router
-
-```json
-{
-  "extends": "@teo-garcia/tsconfig-shared/react-router",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": { "@/*": ["./app/*"] }
-  }
-}
-```
-
-### NestJS
-
-```json
-{
-  "extends": "@teo-garcia/tsconfig-shared/nest",
-  "compilerOptions": {
-    "paths": { "@/*": ["./src/*"] }
-  }
-}
-```
-
-### Vite + React
-
-```json
-{
-  "extends": "@teo-garcia/tsconfig-shared/vite-react",
-  "compilerOptions": {
-    "baseUrl": ".",
-    "paths": { "@/*": ["./src/*"] }
-  }
-}
-```
+---
 
 ## Exports
 
@@ -91,14 +43,19 @@ pnpm add -D @teo-garcia/tsconfig-shared
 | `@teo-garcia/tsconfig-shared/react-router` | React Router + Vite        |
 | `@teo-garcia/tsconfig-shared/nest`         | NestJS server              |
 | `@teo-garcia/tsconfig-shared/vite-react`   | Vite + React SPA           |
+| `@teo-garcia/tsconfig-shared/expo`         | Expo / React Native        |
+
+---
 
 ## Related Packages
 
-| Package                                                                                    | Description         |
-| ------------------------------------------------------------------------------------------ | ------------------- |
-| [@teo-garcia/eslint-config-shared](https://github.com/teo-garcia/eslint-config-shared)     | ESLint rules        |
-| [@teo-garcia/prettier-config-shared](https://github.com/teo-garcia/prettier-config-shared) | Prettier formatting |
-| [@teo-garcia/vitest-config-shared](https://github.com/teo-garcia/vitest-config-shared)     | Test configuration  |
+| Package                              | Description         |
+| ------------------------------------ | ------------------- |
+| `@teo-garcia/eslint-config-shared`   | ESLint rules        |
+| `@teo-garcia/prettier-config-shared` | Prettier formatting |
+| `@teo-garcia/vitest-config-shared`   | Test configuration  |
+
+---
 
 ## License
 

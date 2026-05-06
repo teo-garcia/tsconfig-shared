@@ -17,14 +17,14 @@ ecosystem
 
 ## Presets
 
-| Config           | Target | Use Case                   |
-| ---------------- | ------ | -------------------------- |
-| **base**         | ESNext | Common TypeScript settings |
-| **next**         | ESNext | Next.js projects           |
-| **react-router** | ESNext | React Router + Vite        |
-| **nest**         | ES2022 | NestJS server projects     |
-| **vite-react**   | ESNext | Vite + React SPA           |
-| **expo**         | ESNext | Expo / React Native        |
+| Config           | Target    | Use Case                   |
+| ---------------- | --------- | -------------------------- |
+| **base**         | Inherited | Common TypeScript settings |
+| **next**         | ES2017    | Next.js projects           |
+| **react-router** | ES2022    | React Router + Vite        |
+| **nest**         | ES2023    | NestJS server projects     |
+| **vite-react**   | ES2020    | Vite + React SPA           |
+| **expo**         | ESNext    | Expo / React Native        |
 
 ---
 

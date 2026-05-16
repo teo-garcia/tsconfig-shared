@@ -51,7 +51,7 @@
   "devDependencies": {
     "@teo-garcia/prettier-config-shared": "^0.2.9",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.3",
+    "lint-staged": "^17.0.0",
     "prettier": "^3.8.1"
   }
 }

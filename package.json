@@ -35,7 +35,7 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@10.34.1",
   "prettier": "@teo-garcia/prettier-config-shared",
   "repository": {
     "type": "git",

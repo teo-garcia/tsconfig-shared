@@ -86,6 +86,7 @@ for (const specifier of [
   '@teo-garcia/tsconfig-shared/nest',
   '@teo-garcia/tsconfig-shared/vite-react',
   '@teo-garcia/tsconfig-shared/expo',
+  '@teo-garcia/tsconfig-shared/angular',
 ]) {
   await import(specifier, { with: { type: 'json' } })
 }

@@ -1,6 +1,6 @@
 {
   "name": "@teo-garcia/tsconfig-shared",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Shared TypeScript configurations for templates",
   "main": "tsconfig.base.json",
   "exports": {
@@ -9,7 +9,8 @@
     "./react-router": "./tsconfig.react-router.json",
     "./nest": "./tsconfig.nest.json",
     "./vite-react": "./tsconfig.vite-react.json",
-    "./expo": "./tsconfig.expo.json"
+    "./expo": "./tsconfig.expo.json",
+    "./angular": "./tsconfig.angular.json"
   },
   "files": [
     "tsconfig.base.json",
@@ -17,7 +18,8 @@
     "tsconfig.react-router.json",
     "tsconfig.nest.json",
     "tsconfig.vite-react.json",
-    "tsconfig.expo.json"
+    "tsconfig.expo.json",
+    "tsconfig.angular.json"
   ],
   "keywords": [
     "typescript",
@@ -28,7 +30,8 @@
     "nestjs",
     "vite",
     "expo",
-    "react-native"
+    "react-native",
+    "angular"
   ],
   "author": "Teo Garcia",
   "license": "MIT",

@@ -38,7 +38,7 @@
   "engines": {
     "node": ">=24"
   },
-  "packageManager": "pnpm@10.33.2",
+  "packageManager": "pnpm@11.9.0",
   "prettier": "@teo-garcia/prettier-config-shared",
   "repository": {
     "type": "git",
@@ -54,7 +54,7 @@
   "devDependencies": {
     "@teo-garcia/prettier-config-shared": "^0.2.9",
     "husky": "^9.1.7",
-    "lint-staged": "^16.2.3",
+    "lint-staged": "^17.0.0",
     "prettier": "^3.8.1"
   }
 }

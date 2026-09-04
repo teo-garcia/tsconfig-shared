@@ -45,11 +45,12 @@
     "url": "git+https://github.com/teo-garcia/tsconfig-shared.git"
   },
   "scripts": {
-    "check": "pnpm format:check && pnpm smoke:consumer",
+    "check": "pnpm format:check && pnpm audit --audit-level=high && pnpm smoke:consumer",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
     "prepare": "husky",
-    "smoke:consumer": "node scripts/consumer-smoke.mjs"
+    "smoke:consumer": "node scripts/consumer-smoke.mjs",
+    "verify:release": "node scripts/verify-release.mjs"
   },
   "devDependencies": {
     "@teo-garcia/prettier-config-shared": "^0.2.9",

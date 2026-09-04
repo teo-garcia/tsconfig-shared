@@ -25,6 +25,7 @@ ecosystem
 | **nest**         | ES2023    | NestJS server projects     |
 | **vite-react**   | ES2020    | Vite + React SPA           |
 | **expo**         | ESNext    | Expo / React Native        |
+| **angular**      | ES2022    | Angular applications       |
 
 ---
 
@@ -44,6 +45,7 @@ ecosystem
 | `@teo-garcia/tsconfig-shared/nest`         | NestJS server              |
 | `@teo-garcia/tsconfig-shared/vite-react`   | Vite + React SPA           |
 | `@teo-garcia/tsconfig-shared/expo`         | Expo / React Native        |
+| `@teo-garcia/tsconfig-shared/angular`      | Angular applications       |
 
 ---
 
